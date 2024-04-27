@@ -8,30 +8,27 @@ public class ShootingStarMove : MonoBehaviour
 {
     public GameObject player;
     public Animator starAnimation;
-    private const int Distance = 10;
-    private const float Speed = 5f;
-    private PlayerController pc;
+    private const float Speed = 4f;
+    private ClickController cc;
 
     private void Start()
     {
-        pc= player.GetComponent<PlayerController>();
+        cc = player.GetComponent<ClickController>();
     }
 
     // Update is called once per frame
     void Update()
+    
     {
-        // location of the player
-        Vector3 playerPos = player.transform.position;
-        //Vector3 playerDir = player.transform.eulerAngles;
-        
+        Vector3 movingVector = cc.playerDirection;
         // case 1. player is moving
-        if (pc.moving)
+        float distance = Vector3.Distance(player.transform.position, transform.position);
+        if (movingVector != Vector3.down && distance <= 8)
         {
-            //Vector3 newStarPos = GetTerrainPos(playerPos.x, playerPos.z);
-            Vector3 movingVector = new Vector3(pc.joystick.Direction.x, 0.0f, pc.joystick.Direction.y);
-            transform.rotation = player.transform.rotation;
-            transform.Translate(movingVector * Speed * Time.deltaTime);
+            // transform.rotation = player.transform.rotation;
             transform.position = GetTerrainPos(transform.position.x, transform.position.z);
+            transform.Translate(movingVector * Speed * Time.deltaTime);
+            
             starAnimation.ResetTrigger("Sit");
             starAnimation.SetTrigger("Jog");
         }
