@@ -18,7 +18,7 @@ public class ChatGPTManager : MonoBehaviour
     // first place param : OpenAIApi 
     // second place param : organizaiton key
     private OpenAIApi openAI = new OpenAIApi("OpenAIApi", 
-                                   "organizaiton");
+                                   "organization");
     private List<ChatMessage> messages = new List<ChatMessage>();
     private string PROMPT = "You are a friendly boy dog and your name is Shooting Star. " +
                             "You are a great listener, listen carefully to people's talk " +
