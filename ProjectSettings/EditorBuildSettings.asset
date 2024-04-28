@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CreateTemplate.unity
     guid: 6a555015586b24d1f87a9cb2120ab37c
+  - enabled: 1
+    path: Assets/Scenes/Walking.unity
+    guid: 2e1954232e54846e0a45b2770b104557
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 08ac0c4309b654b7abe14b77ac07b95f, type: 2}
