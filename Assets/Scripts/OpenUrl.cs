@@ -6,7 +6,7 @@ public class OpenUrl : MonoBehaviour
 {
     public void OpenURL()
     {
-        string url = "https://docs.google.com/forms/d/1yUtomq9JwJDQdd3plJMIkoDF9jhyBx0xKwfhaf_qnlU/template/preview";
+        string url = "https://docs.google.com/forms/d/1yUtomq9JwJDQdd3plJMIkoDF9jhyBx0xKwfhaf_qnlU/prefill";
         Application.OpenURL(url);
         Debug.Log("Working!");
     }
