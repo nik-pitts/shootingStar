@@ -11,7 +11,8 @@ public class DateTimeManager : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(GetRealDateTImeFromAPI());
+        StartCoroutine(GetRealDateTimeFromAPI());
+        Debug.Log(currentDateTime);
     }
 
     public DateTime GetStartDateTime()
@@ -21,16 +22,16 @@ public class DateTimeManager : MonoBehaviour
 
     public DateTime GetDateTimeNow()
     {
-        StartCoroutine(GetRealDateTImeFromAPI());
+        StartCoroutine(GetRealDateTimeFromAPI());
         return currentDateTime;
     }
     
-    IEnumerator GetRealDateTImeFromAPI()
+    IEnumerator GetRealDateTimeFromAPI()
     {
         UnityWebRequest webRequest = UnityWebRequest.Get(API_URL);
         yield return webRequest.SendWebRequest();
 
-        if (webRequest.isNetworkError || webRequest.isHttpError)
+        if (webRequest.result == UnityWebRequest.Result.ProtocolError)
         {
             Debug.Log("Error: " + webRequest.error);
         }
@@ -43,9 +44,8 @@ public class DateTimeManager : MonoBehaviour
 
     DateTime ParseDateTIme(string dateTime)
     {
-        string date = Regex.Match(dateTime, @"^\d{4}-\d{2}-\d{2}").Value;
-        string time = Regex.Match(dateTime, @"^\d{2}:\d{2}:\d{2}").Value;
-
+        string date = Regex.Match(dateTime, @"^\d{4}-\d{2}-\d{2}$").Value;
+        string time = Regex.Match(dateTime, @"^\d{2}:\d{2}:\d{2}$").Value;
         return DateTime.Parse(String.Format("{0} {1}", date, time));
     }
 }

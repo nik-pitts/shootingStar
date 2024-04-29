@@ -8,12 +8,11 @@ public class ShowDateTime : MonoBehaviour
 {
     public TextMeshProUGUI time;
     public TextMeshProUGUI date;
-    public DateTimeManager dtManager;
+    //public DateTimeManager dtManager;
 
-    private void Start()
+    private void Update()
     {
-        DateTime startTime = dtManager.GetStartDateTime();
-        time.text = startTime.Hour + ":" + startTime.Minute;
-        date.text = startTime.Day + "/" + startTime.Month + "/" + startTime.Year;
+        time.text = DateTime.Now.ToLongTimeString();
+        date.text = DateTime.Now.ToLongDateString();
     }
 }
