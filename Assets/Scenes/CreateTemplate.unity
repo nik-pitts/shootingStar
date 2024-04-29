@@ -258,8 +258,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292006610
-  m_fontColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+    rgba: 4294960314
+  m_fontColor: {r: 0.7294118, g: 0.89411765, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -276,8 +276,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -360,7 +360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43, y: 54}
+  m_AnchoredPosition: {x: 254, y: 100}
   m_SizeDelta: {x: 299.38, y: 424.2679}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666449883
@@ -383,18 +383,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"A Walk with Shooting Star" is an interactive journal-writing game where
-    you engage in conversation with our virtual dog, Shooting Star, while taking
-    a leisurely stroll. Your dialogue with Shooting Star seamlessly transforms into
-    your daily record, which is then conveniently archived in your Google Drive.
+  m_text: 'To start, you''ll need to create your personalized diary format using
+    a Google Form. Click the button below to access a sample format or build your
+    own from scratch!
 
 
-    To
-    begin, you''ll need to create your personalized diary format using a Google Form.
-    Click the button below to access a sample format. Feel free to customize the
-    template to suit your preferences by clicking the "Use Template" button located
-    at the top right corner. Once you''ve finalized your diary format, it''s time
-    to embark on your walk with Shooting Star!'
+    The "Start from template" button will take you to the
+    pre-filled template for the diary. Please fill in this template thoughtfully,
+    as the game will share the information with our virtual doggy Shooting Star to
+    get to know you better. Currently, the "make your own" button is on the way,
+    but in the meantime, you can start from our pre-designed template. Don''t worry!
+    This game will provide a satisfying personalized experience.
+
+
+    Once you''ve
+    finalized your diary format, it''s time to embark on your walk with Shooting
+    Star!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85fcd74eda342439d937003222298f41, type: 2}
   m_sharedMaterial: {fileID: 2025311489575975889, guid: 85fcd74eda342439d937003222298f41,
@@ -422,8 +426,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -458,7 +462,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -122.19116, w: -55.02864}
+  m_margin: {x: -133.0583, y: 98.52984, z: 28.84375, w: -112.75166}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -600,7 +604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42, y: 391}
+  m_AnchoredPosition: {x: -70, y: 149}
   m_SizeDelta: {x: 299.3789, y: 85.001}
   m_Pivot: {x: 0.9575028, y: 0.17026734}
 --- !u!114 &888075770
@@ -625,8 +629,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Starting from Google Form
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ca9b17b283b34418bb19fc1ba09f5c42, type: 2}
-  m_sharedMaterial: {fileID: 3408082368982878699, guid: ca9b17b283b34418bb19fc1ba09f5c42,
+  m_fontAsset: {fileID: 11400000, guid: 85fcd74eda342439d937003222298f41, type: 2}
+  m_sharedMaterial: {fileID: 2025311489575975889, guid: 85fcd74eda342439d937003222298f41,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -651,8 +655,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -687,7 +691,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -158.97998, w: 0}
+  m_margin: {x: 0, y: 0, z: 51.524277, w: 0.7412377}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -850,7 +854,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'make your own '
+  m_text: 'Make your own '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85fcd74eda342439d937003222298f41, type: 2}
   m_sharedMaterial: {fileID: 2025311489575975889, guid: 85fcd74eda342439d937003222298f41,
@@ -860,8 +864,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292006610
-  m_fontColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+    rgba: 4294960314
+  m_fontColor: {r: 0.7294118, g: 0.89411765, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -878,8 +882,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -965,8 +969,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -137, y: -313}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -284, y: 58}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1357284676
 MonoBehaviour:
@@ -1086,7 +1090,6 @@ GameObject:
   - component: {fileID: 1787293698}
   - component: {fileID: 1787293697}
   - component: {fileID: 1787293696}
-  - component: {fileID: 1787293700}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1123,7 +1126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1172,8 +1175,8 @@ RectTransform:
   - {fileID: 1798947388}
   - {fileID: 888075769}
   - {fileID: 666449882}
-  - {fileID: 1831333712}
   - {fileID: 1357284675}
+  - {fileID: 1831333712}
   - {fileID: 2137564048}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1182,19 +1185,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1787293700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787293695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53c013f6ed6bc438fbfd87edefd8847e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefilledFormUrl: 
 --- !u!1 &1798947387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,8 +1297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23, y: -313}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -283, y: -51}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831333713
 MonoBehaviour:
@@ -1473,7 +1463,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: start from template
+  m_text: Start from template
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85fcd74eda342439d937003222298f41, type: 2}
   m_sharedMaterial: {fileID: 2025311489575975889, guid: 85fcd74eda342439d937003222298f41,
@@ -1483,8 +1473,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292006610
-  m_fontColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+    rgba: 4294960314
+  m_fontColor: {r: 0.7294118, g: 0.89411765, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1501,8 +1491,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1588,8 +1578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 183, y: -314}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -282, y: -163}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2137564049
 MonoBehaviour:
@@ -1635,18 +1625,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1787293700}
-        m_TargetAssemblyTypeName: CopyPasteHandler, Assembly-CSharp
-        m_MethodName: PasteFromClipBoard
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2137564052}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: MoveScene

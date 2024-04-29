@@ -4,16 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CopyPasteHandler : MonoBehaviour
-{
-    public string prefilledFormUrl;
-
-    public void PasteFromClipBoard()
+public static class CopyPasteHandler
+{ 
+    public static string PasteFromClipBoard()
     {
         TextEditor textEditor = new TextEditor();
         textEditor.multiline = true;
         textEditor.Paste();
-        prefilledFormUrl = textEditor.text;
-        Debug.Log(prefilledFormUrl);
+        Debug.Log(textEditor.text);
+        return textEditor.text;
     }
 }
